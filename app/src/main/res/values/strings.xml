@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PocketTour</string>
+    <string name="action_settings">Settings</string>
+    <string name="default_uri">http://opendata.caceres.es/</string>
+    <string name="museum_1">
+            "El Museo de Cáceres es una institución pública española de la ciudad de Cáceres (España). Posee titularidad estatal y su gestión está transferida a la Junta de Extremadura."
+    </string><string name="museum_2">
+            "Se conoce como Casa de los Caballos al edificio del siglo XVI que se encuentra junto al Palacio de las Veletas en la ciudad de Cáceres (España). Fue una construcción que sirvió en su día como caballerizas de dicho palacio y que sirve como sede de la Sección de Bellas Artes del Museo de Cáceres, ubicado dentro del conjunto monumental de la ciudad antigua de Cáceres declarada por el Consejo de Europa como el Tercer Conjunto Monumental de Europa en 1968 y Patrimonio de la Humanidad por la Unesco en 1986.En el edificio de la Casa de los Caballos, después de unas reformas llevadas a cabo en la última década del siglo XX, se dedicó a albergar la secciones museísticas especialmente relacionadas con la pintura y escultura desde la época medieval hasta la actual. En el año 2003 se volvieron a realizar obras para facilitar el paso entre los dos edificios de la Casa de los Caballos y el Palacio de las Veletas por medio de una pasarela sobre un jardín que también se ha adecuado para poder exponer esculturas al aire libre. Tiene así mismo un espacio interior reservado para exposiciones temporales."
+    </string><string name="museum_4">
+            "La Casa Museo Guayasamín situada en Cáceres es un centro cultural que forma parte de la Institución Cultural El Brocense dependiente de la Diputación de Cáceres. Representa una extensión, la primera de en Europa, de la Fundación Guayasamín de Quito, consagrada a divulgar la obra del artista ecuatoriano Oswaldo Guayasamín .Los fondos culturales que se encuentran en su interior forman parte de la colección que durante su vida atesoró el pintor y escultor ecuatoriano y son gestionados por la Fundación que lleva su nombre."
+    </string>
+</resources>

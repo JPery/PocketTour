@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+	<style type="text/css">
+		#map { height: 240px; width: 360px;}
+		body{margin: 0; padding: 0;}
+	</style>
+</head>
+<body>
+<div id="map"></div>
+<script type="text/javascript">
+	var map = L.map('map', {
+    center: ["39.470580","-6.388249"],
+    zoom: 14,
+		attributionControl: false
+});
+   	var wmsLayer = L.tileLayer.wms('http://ide.caceres.es/geoserver/ows?', {
+		layers: 'callejero:Callejero_Caceres,Calles_Numeros:Calles_Numeros',
+		transparent: true,
+		attribution: ""
+		})
+   	map.addLayer(wmsLayer);
+    var layerControl = L.control.layers(wmsLayer);
+    map.addControl(layerControl);
+		function addPoint(lat,long){
+			var marker = L.marker([lat, long]).addTo(map);
+			map.setView([lat,long],16);
+		}
+</script>
+</body>
+</html>

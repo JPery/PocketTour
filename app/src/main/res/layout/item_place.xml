@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="8dp"
+    android:theme="@style/CardView">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp">
+
+        <ImageView
+            android:id="@+id/item_place_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="100dp"
+            android:maxWidth="100dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_museum"/>
+
+        <TextView
+            android:id="@+id/item_place_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@+id/item_place_image"
+            android:layout_toRightOf="@+id/item_place_image"
+            android:maxLines="1"
+            tools:text="Museo Provincial de Cáceres" />
+
+        <TextView
+            android:id="@+id/item_place_uri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_place_name"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@+id/item_place_image"
+            android:layout_toRightOf="@+id/item_place_image"
+            android:autoLink="web"
+            android:maxLines="3"
+            tools:text="http://opendata.caceres.es/recurso/cultura-ocio/museos/Museo/1-museo" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
